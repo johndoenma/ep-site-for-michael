@@ -1,0 +1,26 @@
+/* BUTTONS */
+
+.button, button {
+    background-color: transparent;
+    color: $color-accent-light;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+    transition: all 250ms ease;
+    border: 1px solid $color-accent-light;
+    border-radius: 8px;
+    margin: 1em 0;
+
+    &:hover {
+        background-color: $color-accent-light;
+        color: $color-text-body;
+    }
+}
+
+.below-menu {
+    margin-top: 3em;
+} 
+
+a.button.playlist {
+    transition: .4s ease;
+}
